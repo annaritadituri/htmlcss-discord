@@ -183,20 +183,36 @@ Sezione due colonne backgroud grigio
 */
 
 .half-container-gray {
-    max-width: 100vw;
+    max-width: 1200px;
     margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: lightgray;
+    background-color: rgb(237, 237, 237);
 }
 
 .half-container-gray .row {
     width: 80%;
-    height: 50vh;
+    height: 500px;
     margin-top: 30px;
     margin-bottom: 30px;
-    border: 1px dashed black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.half-container-gray img {
+    width: 100%;
+}
+
+.half-container-gray h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.half-container-gray p {
+    line-height: 1.5;
 }
 
 /*
